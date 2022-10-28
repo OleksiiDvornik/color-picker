@@ -70,6 +70,10 @@ body {
     outline: none;
 }
 
+.column button > * {
+    pointer-events: none;
+}
+
 .column button:hover {
     cursor: pointer;
     background: rgba(0, 0, 0, 0.1);
